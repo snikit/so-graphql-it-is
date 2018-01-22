@@ -1,0 +1,27 @@
+{
+  "name": "so-graphql-it-is",
+  "version": "1.0.0",
+  "description": "http://graphql.org/learn/schema/",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "smart": "nodemon smartindex.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snikit/so-graphql-it-is.git"
+  },
+  "author": "snikit",
+  "bugs": {
+    "url": "https://github.com/snikit/so-graphql-it-is/issues"
+  },
+  "homepage": "https://github.com/snikit/so-graphql-it-is#readme",
+  "dependencies": {
+    "dataloader": "^1.3.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2"
+  }
+}
